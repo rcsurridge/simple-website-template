@@ -25,19 +25,37 @@
     
   </head>
   
-  <body>
-
+  <body id="page-top">
+  <!--- Navigation -->
+  <nav class="navbar navbar-expand_lg fixed_top" id="mainNav">
+    <div class ="container">
+      <a class=""js-scroll-trigger" href="#page-top">
+        Home
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cv_and_projects">CV and Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <header id="header">
       <img src="profile.jpg" width="200" height="200">
-      <h1>Hi, I'm Bobby! Welcome to my website. Feel free to view my portfolio of work in data science.</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#cv_and_projects">CV and Projects</a></li>
-      </ul>                 
+      <h1>Hi, I'm Bobby! Welcome to my website. Feel free to view my portfolio of work in data science.</h1>         
     </header>
    
     <div id="container">
