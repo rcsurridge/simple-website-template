@@ -96,8 +96,7 @@ body {
 }
 header, #content, footer { 
   background: none; 
-  padding:25px;
-  color:#FFFFFF; 
+  padding:25px; 
 }
 
 /* Menu Links */
