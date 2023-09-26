@@ -21,7 +21,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#493def;
 }
 a:focus {
   outline: thin dotted;
@@ -90,13 +90,6 @@ blockquote p:last-child {
 /**
  * Layout styles
  */
-
-/* Full size background image */
-html, #container, .inner { background-color:transparent;}
-html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
-}
 body {
   max-width:800px;
   margin:25px auto;
