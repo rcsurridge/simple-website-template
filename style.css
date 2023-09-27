@@ -131,6 +131,7 @@ u {
   display: inline-block;
   margin-left: 20px; /* Adjust as needed for spacing */
   margin-top: 5px;
+  padding-right: 10px;
 }
 
 #topRightNav a {
