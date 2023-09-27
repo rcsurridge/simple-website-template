@@ -61,6 +61,7 @@ u {
   font-weight: 500;
   font-size: 1.6rem;
   padding: 0.5rem 1rem;
+  border: 1px solid darkgreen;
 }
 
 .btn-primary,
