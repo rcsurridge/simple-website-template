@@ -95,7 +95,7 @@ u {
 
 /* --- Navigation Settings --- */
 .js-scroll-trigger {
-  padding-left: 200px;
+  padding-left: 200px !important;
   margin-top: 5px;
   font-size: 1.2rem;
   text-decoration: none !important;
@@ -134,7 +134,7 @@ u {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 150px;
+  padding-right: 150px !important;
 }
 
 #topRightNav li {
