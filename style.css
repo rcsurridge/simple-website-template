@@ -77,18 +77,6 @@ u {
   text-decoration: none;
 }
 
-/* --- Layout styles --- */
-
-body {
-  max-width:800px;
-  margin:25px auto;
-}
-
-header, #content, footer { 
-  background: none; 
-  padding:25px; 
-}
-
 /* --- Buttons --- */
 
 .btn {
