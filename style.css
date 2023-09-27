@@ -268,13 +268,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 /* Style for GitHub links */
-.github-links {
-  display: flex; /* Use flexbox to align items horizontally */
-  flex-direction: row; /* Display them in a row */
-  align-items: center; /* Center items horizontally */
-  justify-content: space-between; /* Add space between the links */
-}
-
 .github-link {
   flex: 1; /* Allow both links to take equal space */
   margin-right: 40px; /* Adjust the spacing as needed */
