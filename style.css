@@ -90,10 +90,21 @@ u {
 }
 
 /* --- Navigation Settings --- */
+#navbarWrapper {
+  position: fixed;
+  top: -80px; /* Hide the navbar above the viewport */
+  left: 0;
+  right: 0;
+  background-color: white; /* Adjust the background color as needed */
+  transition: top 0.3s; /* Add a smooth transition effect */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
 #topRightNav {
   position: absolute;
   top: 0;
   right: 0;
+  padding-right: 20px;
 }
 
 #topRightNav li {
