@@ -69,6 +69,7 @@ u {
   width: auto !important;
   border: 1px solid darkgreen !important;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn-primary,
