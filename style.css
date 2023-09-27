@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 /* --- Links --- */
@@ -20,7 +20,7 @@ a {
 
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 10;
+  font-weight: bold;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -226,43 +226,6 @@ img::-moz-selection {
   color: black;
   position: relative;
   overflow: hidden;
-}
-
-.parallax {
-  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-
-  /* Set a specific height */
-  min-height: 100px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallaxwebsite,
-.parallaxcontact {
-  /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallaxposter {
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header.masthead .intro-text {
