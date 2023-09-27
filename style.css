@@ -66,6 +66,7 @@ u {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
+  width: auto !important;
   border: 1px solid darkgreen !important;
   text-decoration: none;
 }
