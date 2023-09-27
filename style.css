@@ -103,12 +103,17 @@ u {
 
 #navbarWrapper {
   position: fixed;
-  top: -80px; /* Hide the navbar above the viewport */
+  top: 0px;
   left: 0;
   right: 0;
-  background-color: white; /* Adjust the background color as needed */
-  transition: top 0.3s; /* Add a smooth transition effect */
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color as needed */
+  transition: background-color 0.3s; /* Add a smooth transition effect */
   z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Add this to change the background color when scrolling */
+#navbarWrapper.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.95); /* Adjust the alpha for the scrolled state */
 }
 
 #topRightNav {
