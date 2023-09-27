@@ -1,10 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
 
     <!-- Page setup -->
-
     <meta charset="utf-8">
     <title>Bobby Surridge | Data - Science - Engineer</title>
     <meta name="description" content="Data science, data analysis, data viz, data visualization, dashboard, Python, R, machine learning">
@@ -12,39 +10,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
   
-    <!-- Custom fonts for this template -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
-      type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-   
-    <!-- Custom stylesheet -->
+    <!-- Custom fonts and stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
-    <!-- Want to add Bootstrap? -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-  </head>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
+    <!-- Custom script for navbar scrolling -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+              $('#navbarWrapper').addClass('navbar-scrolled');
+          } else {
+              $('#navbarWrapper').removeClass('navbar-scrolled');
+          }
+        });
+      });
+    </script>
+
+  </head>
   <body id="page-top">
 
   <!-- Navigation -->
-  <nav id="navbarWrapper">
+  <nav id="navbarWrapper" class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="js-scroll-trigger nav-link" href="#page-top">Home</a>
-    <button class="navbar-toggler navbar-toggler-right menu-button" type="button" data-toggle="collapse"
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
       aria-label="Toggle navigation">
-      Menu
-      <i class="fa fa-bars"></i>
+      Menu <i class="fa fa-bars"></i>
     </button>
-    <div id="topRightNav">
-      <ul class="navbar-nav text-uppercase">
+    <div id="topRightNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
@@ -149,26 +158,5 @@
       </div>
     </div>
   </section>
-
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-    $(document).ready(function() {
-      $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) { // Adjust the value to determine when to change the background color
-          $('#navbarWrapper').addClass('navbar-scrolled');
-        } else {
-          $('#navbarWrapper').removeClass('navbar-scrolled');
-        }
-      });
-    });
-    </script>
-        
-    
   </body>
-</html>
+  </html>
