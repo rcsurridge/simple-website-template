@@ -110,9 +110,6 @@ ul.main-menu li a {
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  border: 2px solid darkgreen;
-  color: darkgreen;
-  border-radius: 5px;
 }
 
 .btn-xl {
@@ -123,9 +120,9 @@ ul.main-menu li a {
 
 .btn-primary {
   background-color: transparent;
-  border: 2px solid darkgreen;
+  border-color: darkgreen;
   color: darkgreen;
-  border-radius: 5px;
+  border-width: medium;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -140,9 +137,9 @@ ul.main-menu li a {
 
 .btn-secondary {
   background-color: transparent;
-  border: 2px solid darkgreen;
+  border-color: darkgreen;
   color: darkgreen;
-  border-radius: 3px;
+  border-width: small;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
