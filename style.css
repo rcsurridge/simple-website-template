@@ -95,7 +95,7 @@ u {
 }
 
 #navbarWrapper a.navbar-brand {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #navbarWrapper {
