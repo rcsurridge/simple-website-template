@@ -54,6 +54,10 @@ u {
 }
 
 /* --- Buttons --- */
+.menu-button {
+  display: none;
+}
+
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
