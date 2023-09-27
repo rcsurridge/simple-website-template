@@ -31,37 +31,50 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* --- Paragraphs --- */
-p {
-  margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
+section {
+  padding: 100px 0;
 }
 
-p + p {
-
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
-/* --- Quotes & Blockquotes --- */
-q {
-  quotes: '\00201C' '\00201D';
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 45px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-q:before {
-  content: open-quote;
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
 }
 
-q:after {
-  content: close-quote;
+u {
+  padding-bottom:3px;
+  text-decoration:none;
+  border-bottom:1px solid #000;
 }
 
-blockquote {
-  border-left: 2px;
-  margin: 1.6em 10%;
-  padding: .75em 1em;
-  font-size:1.8rem;
+/* ---------- Dismiss a few elements if small screen: ----------------- */
+@media (max-width: 1200px) {
+  .hide-if-small-screen {
+    display: none;
+  }
 }
 
-blockquote p:last-child {
-  margin-bottom: 0;  
+/* ---------- Disabled Links ----------------- */
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 /* --- Layout styles --- */
@@ -76,37 +89,8 @@ header, #content, footer {
   padding:25px; 
 }
 
-/* --- Menu Links --- */
-
-ul.main-menu {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  list-style: none;
-}
-
-ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
-  border-bottom: solid transparent 3px;
-}
-
-/* --- Utility classes --- */
-
-.hide {
-  display:none;
-}
-
-.show {
-  display:block;
-}
-
-
 /* --- Buttons --- */
 
-/* ---------- Button ----------------- */
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
