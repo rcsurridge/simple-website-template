@@ -124,14 +124,13 @@ u {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 #topRightNav li {
   display: inline-block;
   margin-left: 20px; /* Adjust as needed for spacing */
   margin-top: 5px;
-  padding-right: 10px;
 }
 
 #topRightNav a {
