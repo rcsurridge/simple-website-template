@@ -323,3 +323,8 @@ header.masthead .intro-text .intro-heading {
 #about {
   margin-top: 30px;
 }
+
+/* --- Image --- */
+img {
+  float: left;
+}
