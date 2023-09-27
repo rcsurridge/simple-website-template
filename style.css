@@ -98,6 +98,7 @@ u {
 #navbarWrapper a.navbar-brand {
   text-decoration: none !important;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 #navbarWrapper {
