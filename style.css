@@ -62,6 +62,7 @@ u {
   font-size: 1.6rem;
   padding: 0.5rem 1rem;
   border: 1px solid darkgreen;
+  text-decoration: none;
 }
 
 .btn-primary,
