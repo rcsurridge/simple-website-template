@@ -67,9 +67,9 @@ u {
 
 .btn-primary,
 .btn-secondary {
-  background-color: transparent;
-  border-color: darkgreen;
-  color: darkgreen;
+  background-color: transparent !important;
+  border-color: darkgreen !important;
+  color: darkgreen !important;
   border-width: medium;
 }
 
