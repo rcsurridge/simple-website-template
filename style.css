@@ -278,3 +278,14 @@ header.masthead .intro-text .intro-heading {
   font-size: 18px;
   border: 1px darkgreen;
 }
+
+/* --- Landing Page --- */
+.arrowlanding {
+  color: black;
+  position: absolute;
+  top: 98%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  max-width: 600px;
+  padding: 2em 3em;
+}
