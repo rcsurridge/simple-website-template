@@ -143,6 +143,17 @@
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
+    <script>
+      window.addEventListener("scroll", function() {
+        const navbar = document.getElementById("navbarWrapper");
+        if (window.scrollY > 100) { // Adjust the scroll threshold as needed
+          navbar.style.top = "0"; // Show the navbar
+        } else {
+          navbar.style.top = "-80px"; // Hide the navbar
+        }
+      });
+    </script>
+    
     
   </body>
 </html>
