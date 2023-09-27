@@ -103,6 +103,11 @@ u {
   font-weight: bold;
 }
 
+.js-scroll-trigger.nav-link:hover {
+  color: inherit;
+}
+
+
 #navbarWrapper a.navbar-brand {
   text-decoration: none !important;
   margin-top: 5px;
