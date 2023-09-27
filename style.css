@@ -6,6 +6,10 @@ body {
   padding: 150px; /* Add padding to the entire page */
 }
 
+.bg-light {
+  padding: 20px;
+}
+
 /* --- Links --- */
 p {
   line-height: 1.75;
