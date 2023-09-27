@@ -92,6 +92,7 @@ u {
 /* --- Navigation Settings --- */
 .js-scroll-trigger {
   padding-left: 150px;
+  margin-top: 5px;
   text-decoration: none !important;
   color: darkgreen;
   font-weight: bold;
