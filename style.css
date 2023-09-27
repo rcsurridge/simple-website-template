@@ -63,16 +63,10 @@ u {
   padding: 0.5rem 1rem;
 }
 
-.btn-xl {
-  font-size: 1.8rem;
-  padding: 0.6rem 1.2rem;
-}
-
 .btn-primary,
 .btn-secondary {
   background-color: transparent;
   border-color: darkgreen;
-  color: darkgreen;
   border-width: medium;
 }
 
@@ -82,7 +76,6 @@ u {
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color: darkgreen !important;
   border-color: darkgreen !important;
   color: white;
 }
