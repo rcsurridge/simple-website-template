@@ -59,11 +59,13 @@ u {
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
 }
 
 .btn-xl {
-  font-size: 1.8rem;
-  margin: 0.3rem;
+  font-size: 2.4rem;
+  padding: 0.6rem 1.2rem;
 }
 
 .btn-primary,
