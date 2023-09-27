@@ -122,6 +122,11 @@ u {
 
 
 /* --- Social Buttons --- */
+.list-inline.social-buttons li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the margin as needed for spacing */
+}
+
 ul.list-inline {
   list-style-type: none !important;
 }
