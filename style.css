@@ -91,6 +91,10 @@ u {
 }
 
 /* --- Navigation Settings --- */
+.js-scroll-trigger {
+  padding: 10px 20px; /* Add padding as needed (top and bottom, left and right) */
+}
+
 #navbarWrapper {
   position: fixed;
   top: -80px; /* Hide the navbar above the viewport */
