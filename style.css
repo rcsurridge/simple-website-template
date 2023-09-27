@@ -94,6 +94,10 @@ u {
   padding: 40px 150px; /* Add padding as needed (top and bottom, left and right) */
 }
 
+#navbarWrapper a.navbar-brand {
+  text-decoration: none;
+}
+
 #navbarWrapper {
   position: fixed;
   top: -80px; /* Hide the navbar above the viewport */
