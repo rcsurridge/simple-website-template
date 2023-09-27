@@ -90,6 +90,10 @@ u {
 }
 
 /* --- Social Buttons --- */
+ul.list-inline {
+  list-style-type: none;
+}
+
 ul.social-buttons {
   margin-bottom: 0;
 }
@@ -107,7 +111,6 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: black;
-  list-style-type: none;
 }
 
 ul.social-buttons li a:active, 
