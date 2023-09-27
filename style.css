@@ -93,6 +93,7 @@ u {
 .js-scroll-trigger {
   padding-left: 150px;
   margin-top: 10px;
+  font-size: 1.2rem;
   text-decoration: none !important;
   color: darkgreen;
   font-weight: bold;
