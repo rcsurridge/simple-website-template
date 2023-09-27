@@ -91,7 +91,7 @@ u {
 
 /* --- Navigation Settings --- */
 .js-scroll-trigger {
-  padding: 40px 150px; /* Add padding as needed (top and bottom, left and right) */
+  padding-left: 150px;
   text-decoration: none !important;
   color: darkgreen;
   font-weight: bold;
