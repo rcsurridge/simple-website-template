@@ -246,7 +246,6 @@ header.masthead .intro-text .intro-heading {
   border-radius: 6px 0 6px 6px;
 }
 
-
 /* --- Tooltip --- */
 .data-tooltip{
   color: black;
@@ -266,6 +265,7 @@ header.masthead .intro-text .intro-heading {
 .github-links {
   display: flex; /* Use flexbox to align items horizontally */
   flex-direction: row; /* Display them in a row */
+  align-items: center; /* Center items horizontally */
   justify-content: space-between; /* Add space between the links */
 }
 
