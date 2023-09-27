@@ -89,6 +89,27 @@ u {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+/* --- Navigation Settings --- */
+#topRightNav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#topRightNav li {
+  display: inline-block;
+  margin-left: 20px; /* Adjust as needed for spacing */
+}
+
+#topRightNav a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  margin-top: 5px; /* Adjust as needed for vertical alignment */
+}
+
+
 /* --- Social Buttons --- */
 ul.list-inline {
   list-style-type: none !important;
@@ -135,52 +156,6 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
-}
-
-#mainNav {
-  background-color: white;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 1.2rem;
-  right: 0;
-  padding: 1.3rem;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: darkgreen;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-/* Color of 'from data to viz' on the top left */
-#mainNav .navbar-brand {
-  color: darkgreen;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
-}
-
-#mainNav .navbar-brand.active, 
-#mainNav .navbar-brand:active, 
-#mainNav .navbar-brand:focus, 
-#mainNav .navbar-brand:hover {
-  color: black;
-}
-
-/* Color of the TEXT of the menu top right*/
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size: .9rem;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: black;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active, 
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: darkgreen;
-  background-color: white;
-  border-bottom: 3px solid darkgreen;
 }
 
 .masthead {
