@@ -107,6 +107,7 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: black;
+  list-style-type: none;
 }
 
 ul.social-buttons li a:active, 
@@ -271,4 +272,3 @@ header.masthead .intro-text .intro-heading {
     background-color: white;
     border: darkgreen;
 }
-
