@@ -43,23 +43,10 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
-
 u {
   padding-bottom: 3px;
   text-decoration: none;
   border-bottom: 1px solid #000;
-}
-
-/* --- Dismiss a few elements if small screen: --- */
-@media (max-width: 1200px) {
-  .hide-if-small-screen {
-    display: none;
-  }
 }
 
 /* --- Disabled Links --- */
@@ -196,31 +183,6 @@ img::-moz-selection {
   border-bottom: 3px solid darkgreen;
 }
 
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    background-color: transparent;
-  }
-  #mainNav .navbar-brand {
-    font-size: 1.75rem;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1rem 1rem !important;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: white;
-  }
-}
-
 .masthead {
   text-align: center;
   color: black;
@@ -247,30 +209,6 @@ header.masthead .intro-text .intro-heading {
   line-height: 5rem;
   margin-bottom: 2.5rem;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 100px;
-    padding-bottom: 200px;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 1.6rem;
-    font-style: italic;
-    color: grey;
-    line-height: 4rem;
-    margin-bottom: 2.5rem;
-    margin-right: 20%;
-    margin-left: 20%;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 7.5rem;
-    font-weight: 700;
-    line-height: 7.5rem;
-    margin-bottom: 5rem;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
 }
 
 .service-heading {
