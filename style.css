@@ -92,9 +92,6 @@ u {
 /* --- Navigation Settings --- */
 .js-scroll-trigger {
   padding: 40px 150px; /* Add padding as needed (top and bottom, left and right) */
-}
-
-#navbarWrapper a.navbar-brand {
   text-decoration: none !important;
 }
 
