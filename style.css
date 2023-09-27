@@ -307,3 +307,8 @@ header.masthead .intro-text .intro-heading {
 .textlanding {
   text-align: center;
 }
+
+/* --- About --- */
+#about {
+  margin-top: 30px;
+}
