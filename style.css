@@ -190,6 +190,16 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Color of 'from data to viz' on the top left */
+#mainNav .navbar-brand {
+  color: darkgreen;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: black;
+}
+
 /* Color of the TEXT of the menu top right*/
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
