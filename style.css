@@ -96,20 +96,6 @@ u {
 }
 
 /* --- Navigation Settings --- */
-.js-scroll-trigger {
-  padding-left: 150px !important;
-  margin-top: 5px;
-  font-size: 1.2rem;
-  text-decoration: none !important;
-  color: darkgreen;
-  font-weight: bold;
-}
-
-.js-scroll-trigger.nav-link:hover {
-  color: darkgreen !important;
-}
-
-
 #navbarWrapper a.navbar-brand {
   text-decoration: none !important;
   margin-top: 5px;
