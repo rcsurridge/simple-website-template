@@ -341,9 +341,22 @@ header.masthead .intro-text .intro-heading {
 .project-image {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   backface-visibility: hidden; /* Hide the backface of the image */
   transition: transform 0.5s;
+}
+
+.image-alt-text {
+  position: absolute;
+  bottom: 5px; /* Adjust this value to position the alt text as desired */
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white(0, 0, 0, 0.8);
+  color: darkgreen;
+  padding: 5px;
+  margin: 0;
+  font-size: 14px; /* Adjust the font size as needed */
 }
 
 .project-image img {
