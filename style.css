@@ -360,8 +360,9 @@ header.masthead .intro-text .intro-heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkgreen; /* Background color for the name */
-  color: white;
+  border: 1px darkgreen;
+  background-color: white; /* Background color for the name */
+  color: darkgreen;
   transform: rotateY(180deg); /* Initially hide the name with a 180-degree rotation */
   backface-visibility: hidden; /* Hide the backface of the name */
   transition: transform 0.5s; /* Add a smooth transition effect */
@@ -412,8 +413,9 @@ header.masthead .intro-text .intro-heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkgreen; /* Background color for the name */
-  color: white;
+  border: 1px darkgreen;
+  background-color: white; /* Background color for the name */
+  color: darkgreen;
   transform: rotateY(180deg); /* Initially hide the name with a 180-degree rotation */
   backface-visibility: hidden; /* Hide the backface of the name */
   transition: transform 0.5s; /* Add a smooth transition effect */
@@ -427,8 +429,9 @@ header.masthead .intro-text .intro-heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkgreen; /* Background color for the name */
-  color: white;
+  border: 1px darkgreen;
+  background-color: white; /* Background color for the name */
+  color: darkgreen;
   transform: rotateY(0deg); /* Initially the title is not rotated */
   backface-visibility: hidden; /* Hide the backface of the name */
   transition: transform 0.5s; /* Add a smooth transition effect */
