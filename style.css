@@ -131,7 +131,8 @@ u {
   margin-top: 5px;
 }
 
-#topRightNav a {
+#topRightNav a,
+#home-nav a {
   text-decoration: none;
   color: darkgreen;
   font-weight: bold;
