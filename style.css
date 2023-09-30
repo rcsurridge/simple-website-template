@@ -327,14 +327,14 @@ header.masthead .intro-text .intro-heading {
   perspective: 1000px; /* For 3D effect */
   position: relative;
   cursor: pointer;
-  transition: transform 0.5s; /* Add a smooth transition effect */
 }
 
-.tile-image img {
+.tile-image {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  position: absolute;
   backface-visibility: hidden; /* Hide the backface of the image */
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s;
 }
 
 .tile-name {
