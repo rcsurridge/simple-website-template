@@ -460,3 +460,8 @@ header.masthead .intro-text .intro-heading {
 .course:hover .course-title {
   transform: scaleX(-1);
 }
+
+.custom-hr {
+  border-width: 100px; /* Adjust the width as needed */
+  border-color: darkgreen; /* Use a color name or hexadecimal code */
+}
