@@ -586,10 +586,6 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#portfolio * {
-  z-index: 2;
-}
-
 .portfolio-item {
   perspective: 1000px; /* For 3D effect */
   transform-style: preserve-3d; /* Preserve 3D transformations */
