@@ -6,6 +6,8 @@ html {
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .bg-light {
@@ -13,8 +15,14 @@ body {
 }
 
 section {
-  padding: 200px 100px;
+  padding: 200px 0;
 }
+
+.container {
+  padding-left: 20px; /* Adjust as needed */
+  padding-right: 20px; /* Adjust as needed */
+}
+
 
 /* --- Links --- */
 p {
@@ -329,8 +337,8 @@ header.masthead .intro-text .intro-heading {
 /* Style for the project grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Adjust the gap between projects */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* Adjust the gap between projects */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -344,6 +352,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   cursor: pointer;
   text-align: center;
+  padding: 20px;
 }
 
 .project a {
