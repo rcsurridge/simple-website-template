@@ -437,19 +437,16 @@ header.masthead .intro-text .intro-heading {
   color: darkgreen;
 }
 
-.portfolio-back,
-.portfolio-hover {
+.portfolio-back {
   background: darkgreen;
   opacity: 0;
   transition: opacity 0.3s; /* Add a smooth transition effect for the back face */
 }
 
 .portfolio-link:hover,
-.portfolio-back,
-.portfolio-hover {
+.portfolio-back {
   opacity: 1; /* Show the back face on hover */
 }
-
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -458,10 +455,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 /* CSS for the image caroussell (poster) */
-/** {box-sizing: border-box}
-    body {font-family: Verdana, sans-serif; margin:0}
-    .mySlides {display: none}
-    img {vertical-align: middle;}*/
 
     /* Slideshow container */
     .slideshow-container {
