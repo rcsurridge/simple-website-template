@@ -1,4 +1,7 @@
 /* --- Typography & Text styles --- */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
