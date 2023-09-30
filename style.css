@@ -330,12 +330,11 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect */
 }
 
-.tile-image {
+.tile-image img {
   max-width: 100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  height: auto;
   backface-visibility: hidden; /* Hide the backface of the image */
+  transition: transform 0.3s ease-in-out;
 }
 
 .tile-name {
@@ -353,6 +352,10 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect */
 }
 
-.tile:hover .tile-image img {
-  transform: scaleX(-1); /* Flip horizontally on hover */
+.tile:hover .tile-image {
+  transform: rotateY(180deg);
+}
+
+.tile:hover .tile-name {
+  transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
 }
