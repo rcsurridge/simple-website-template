@@ -403,15 +403,6 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect for the flip */
 }
 
-.portfolio-item,
-.portfolio-link:hover {
-  transform: rotateY(180deg); /* Rotate to the back face on hover */
-}
-
-.portfolio-back {
-  transform: rotateY(180deg); /* Initially hide the back face with a 180-degree rotation */
-}
-
 .captionPortfolio {
   font-size: 16px;
   padding: 8px;
@@ -420,6 +411,10 @@ header.masthead .intro-text .intro-heading {
   border: 1px solid darkgreen !important;
   background-color: white; /* Background color for the front face */
   color: darkgreen;
+}
+
+.portfolio-back {
+  transform: rotateY(180deg); /* Initially hide the back face with a 180-degree rotation */
 }
 
 .portfolio-back {
