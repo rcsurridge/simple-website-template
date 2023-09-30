@@ -391,6 +391,7 @@ header.masthead .intro-text .intro-heading {
   perspective: 1000px; /* For 3D effect */
   transform-style: preserve-3d; /* Preserve 3D transformations */
   transition: transform 0.5s; /* Add a smooth transition effect for the flip */
+  border: 1px solid darkgreen !important;
 }
 
 .portfolio-item,
@@ -433,6 +434,7 @@ header.masthead .intro-text .intro-heading {
   padding: 8px;
   margin: 0px;
   text-align: center;
+  border: 1px solid darkgreen !important;
   background-color: white; /* Background color for the front face */
   color: darkgreen;
 }
@@ -440,6 +442,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-back {
   background: darkgreen;
   opacity: 0;
+  border: 1px solid darkgreen !important;
   transition: opacity 0.3s; /* Add a smooth transition effect for the back face */
 }
 
