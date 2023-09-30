@@ -405,6 +405,11 @@ header.masthead .intro-text .intro-heading {
   color: black;
 }
 
+.course-description p {
+  font-size: 14px;
+  color: darkgreen;
+}
+
 .course-description {
   margin-top: 10px;
   width: 100%;
