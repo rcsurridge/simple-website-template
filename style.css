@@ -367,11 +367,6 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect */
 }
 
-.tile:hover {
-  transform: rotateY(180deg); /* Flip the tile on hover */
+.tile:hover .tile-image img {
+  transform: scaleX(-1); /* Flip horizontally on hover */
 }
-
-.tile:hover .tile-name {
-  transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
-}
-
