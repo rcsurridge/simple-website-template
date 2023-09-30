@@ -603,10 +603,3 @@ header.masthead .intro-text .intro-heading {
     margin: 0 0 30px;
   }
 }
-
-.column {
-    display: none; /* Hide all elements by default */
-}
-.show {
-  display: block;
-}
