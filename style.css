@@ -309,7 +309,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 .textlanding {
-  text-align: center;
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  max-width: 600px;
+  padding: 2em 3em;
 }
 
 /* --- About --- */
