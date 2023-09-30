@@ -505,17 +505,6 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-    display: none; /* Hide all elements by default */
-}
-
-    /* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-  transform: rotateY(0deg); /* Rotate to the front face when shown */
-}
-
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
