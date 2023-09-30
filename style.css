@@ -498,14 +498,11 @@ header.masthead .intro-text .intro-heading {
 /* Customize the gallery of the portfolio section
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-.captionPortfolio {
-  font-size: 16px;
-  padding: 8px;
-  margin: 0px;
-  text-align: center;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio,
+.portfolio-item,
+.portfolio-link,
+.portfolio-hover,
+.portfolio-hover-content {
   font-size: 18px;
   position: absolute;
   top: 20%;
@@ -513,22 +510,7 @@ header.masthead .intro-text .intro-heading {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: white;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 25px;
-  text-align: center;
-  background-color: 'none';
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-  font-size: 16px;
-  font-style: italic;
-  margin: 0;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: darkgreen;
 }
 
 .portfolio-item {
@@ -537,7 +519,8 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect for the flip */
 }
 
-.portfolio-item .portfolio-link {
+.portfolio-item,
+.portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
@@ -547,7 +530,8 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect for the flip */
 }
 
-.portfolio-item .portfolio-link:hover {
+.portfolio-item,
+.portfolio-link:hover {
   transform: rotateY(180deg); /* Rotate to the back face on hover */
 }
 
@@ -571,21 +555,24 @@ header.masthead .intro-text .intro-heading {
 }
 
 .captionPortfolio {
-  font-size: 12px;
+  font-size: 16px;
   padding: 8px;
   margin: 0px;
   text-align: center;
   background-color: white; /* Background color for the front face */
-  color: black;
+  color: darkgreen;
 }
 
-.portfolio-back .portfolio-hover {
+.portfolio-back,
+.portfolio-hover {
   background: darkgreen;
   opacity: 0;
   transition: opacity 0.3s; /* Add a smooth transition effect for the back face */
 }
 
-.portfolio-link:hover .portfolio-back .portfolio-hover {
+.portfolio-link:hover,
+.portfolio-back,
+.portfolio-hover {
   opacity: 1; /* Show the back face on hover */
 }
 
