@@ -354,15 +354,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 .image-alt-text {
-  position: absolute;
-  bottom: 5px; /* Adjust this value to position the alt text as desired */
-  left: 0;
-  right: 0;
+  position: sticky;
+  bottom: 10px; /* Adjust this value to position the alt text as desired */
   text-align: center;
   background-color: white(0, 0, 0, 0.8);
   color: darkgreen;
-  padding: 5px;
-  margin: 0;
   font-size: 14px; /* Adjust the font size as needed */
 }
 
