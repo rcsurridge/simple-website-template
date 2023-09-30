@@ -313,6 +313,13 @@ header.masthead .intro-text .intro-heading {
   margin-top: 30px;
 }
 
+.centered-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+}
+
 /* Style for the project grid */
 .project-grid {
   display: grid;
