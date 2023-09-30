@@ -398,8 +398,6 @@ header.masthead .intro-text .intro-heading {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  border-radius: 2%;
-  transition: transform 0.5s; /* Add a smooth transition effect for the flip */
 }
 
 .captionPortfolio {
