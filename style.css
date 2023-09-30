@@ -428,7 +428,7 @@ header.masthead .intro-text .intro-heading {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8); /* Background color for the name */
   color: white;
-  transform: rotateY(180deg); /* Initially hide the name with a 180-degree rotation */
+  transform: rotateY(0deg); /* Initially the title is not rotated */
   backface-visibility: hidden; /* Hide the backface of the name */
   transition: transform 0.5s; /* Add a smooth transition effect */
 }
