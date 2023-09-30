@@ -314,7 +314,9 @@ header.masthead .intro-text .intro-heading {
 
 /* Style for the project grid */
 .tile-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Adjust the gap between projects */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -327,14 +329,26 @@ header.masthead .intro-text .intro-heading {
   perspective: 1000px; /* For 3D effect */
   position: relative;
   cursor: pointer;
+  text-align: center;
+}
+
+.tile a {
+  text-decoration: none;
+  color: black;
 }
 
 .tile-image {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   position: absolute;
   backface-visibility: hidden; /* Hide the backface of the image */
   transition: transform 0.5s;
+}
+
+.tile-image img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .tile-name {
@@ -358,4 +372,8 @@ header.masthead .intro-text .intro-heading {
 
 .tile:hover .tile-name {
   transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
+}
+
+.tile:hover .tile-image img {
+  transform: scaleX(-1);
 }
