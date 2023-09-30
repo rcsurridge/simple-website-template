@@ -389,8 +389,6 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-item {
   perspective: 1000px; /* For 3D effect */
-  transform-style: preserve-3d; /* Preserve 3D transformations */
-  transition: transform 0.5s; /* Add a smooth transition effect for the flip */
   border: 1px solid darkgreen !important;
 }
 
@@ -446,15 +444,16 @@ header.masthead .intro-text .intro-heading {
   transition: opacity 0.3s; /* Add a smooth transition effect for the back face */
 }
 
-.portfolio-link:hover,
-.portfolio-back {
-  opacity: 1; /* Show the back face on hover */
+.portfolio:hover .portfolio-front {
+  transform: rotateY(180deg);
 }
 
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
+.portfolio:hover .portfolio-back{
+  transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
+}
+
+.portfolio:hover .portfolio-front {
+  transform: scaleX(-1);
 }
 
 /* CSS for the image caroussell (poster) */
