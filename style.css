@@ -11,18 +11,8 @@ body {
 }
 
 .bg-light {
-  padding: 20px;
+  padding: 200px 100px;
 }
-
-section {
-  padding: 200px 0;
-}
-
-.container {
-  padding-left: 20px; /* Adjust as needed */
-  padding-right: 20px; /* Adjust as needed */
-}
-
 
 /* --- Links --- */
 p {
