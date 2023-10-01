@@ -301,91 +301,16 @@ header.masthead .intro-text .intro-heading {
   margin-top: 30px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Customize the gallery items
+/* ------------------------------------------------------------------------------------------------------------------- */
+
 .centered-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Horizontally center items */
   align-items: center; /* Vertically center items */
 }
-
-/* Style for the course grid */
-.course-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Adjust the gap between courses */
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.course {
-  margin: 10px;
-  width: 300px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
-  perspective: 1000px; /* For 3D effect */
-  position: relative;
-  cursor: pointer;
-  text-align: center;
-}
-
-.course a {
-  text-decoration: none;
-  color: black;
-}
-
-.course-description p {
-  font-size: 14px;
-  color: darkgreen;
-}
-
-.course-description {
-  margin-top: 10px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid darkgreen !important;
-  background-color: white; /* Background color for the name */
-  color: darkgreen;
-  transform: rotateY(180deg); /* Initially hide the name with a 180-degree rotation */
-  backface-visibility: hidden; /* Hide the backface of the name */
-  transition: transform 0.5s; /* Add a smooth transition effect */
-}
-
-.course-title {
-  font-size: 16px;
-  margin-top: 10px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid darkgreen !important;
-  background-color: white; /* Background color for the name */
-  color: darkgreen;
-  transform: rotateY(0deg); /* Initially the title is not rotated */
-  backface-visibility: hidden; /* Hide the backface of the name */
-  transition: transform 0.5s; /* Add a smooth transition effect */
-}
-
-.course:hover .course-title {
-  transform: rotateY(180deg);
-}
-
-.course:hover .course-description {
-  transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
-}
-
-.course:hover .course-title {
-  transform: scaleX(-1);
-}
-
-/* ------------------------------------------------------------------------------------------------------------------- */
-/* Customize the gallery of the portfolio section
-/* ------------------------------------------------------------------------------------------------------------------- */
 
 .item {
   width: 300px; /* Adjust the width as needed */
