@@ -389,6 +389,8 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-item {
   perspective: 1000px; /* For 3D effect */
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
   cursor: pointer;
   position: relative;
   display: block;
