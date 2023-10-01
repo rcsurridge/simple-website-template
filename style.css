@@ -180,12 +180,12 @@ ul.social-buttons li a:hover {
 }
 
 ::-moz-selection {
-  background: darkgreen;
+  background: #fed136;
   text-shadow: none;
 }
 
 ::selection {
-  background: darkgreen;
+  background: light;
   text-shadow: none;
 }
 
