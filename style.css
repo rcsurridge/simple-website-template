@@ -387,59 +387,47 @@ header.masthead .intro-text .intro-heading {
 /* Customize the gallery of the portfolio section
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-.portfolio-item {
-  perspective: 1000px; /* For 3D effect */
+.item {
   width: 300px; /* Adjust the width as needed */
   height: 300px; /* Adjust the height as needed */
-  cursor: pointer;
+  border: 1px solid darkgreen;
+  perspective: 1000px
+}
+
+.item-front, .item-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.item-front {
+  margin-top: 10px;
+  border: 1px solid darkgreen !important;
+  background-color: white;
+  color: darkgreen;
+}
+
+.item-back {
+  margin-top: 10px;
+  border: 1px solid darkgreen !important;
+  background-color: white;
+  color: darkgreen;
+  transform: rotateY(180deg); /* Initially hide the text with a 180-degree rotation */
+}
+
+.item-inner {
   position: relative;
-  display: block;
-}
-
-.portfolio-front {
-  font-size: 16px;
-  margin-top: 10px;
   width: 100%;
   height: 100%;
-  position: absolute;
-  display: flex;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid darkgreen !important;
-  background-color: white; /* Background color for the name */
-  color: darkgreen;
-  transform: rotateY(0deg); /* Initially the title is not rotated */
-  backface-visibility: hidden; /* Hide the backface of the name */
-  transition: transform 0.5s; /* Add a smooth transition effect */
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
 }
 
-.portfolio-back {
-  margin-top: 10px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid darkgreen !important;
-  background-color: white; /* Background color for the name */
-  color: darkgreen;
-  transform: rotateY(180deg); /* Initially hide the name with a 180-degree rotation */
-  backface-visibility: hidden; /* Hide the backface of the name */
-  transition: transform 0.5s; /* Add a smooth transition effect */
-}
-
-.portfolio-item:hover {
+.item:hover .item-inner {
   transform: rotateY(180deg);
-}
-
-.portfolio-item:hover .portfolio-back{
-  transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
-}
-
-.portfolio-item:hover .portfolio-front {
-  transform: scaleX(-1);
 }
 
 /* CSS for the image caroussell (poster) */
