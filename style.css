@@ -316,6 +316,8 @@ header.masthead .intro-text .intro-heading {
   width: 300px; /* Adjust the width as needed */
   height: 300px; /* Adjust the height as needed */
   perspective: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .item-front, .item-back {
