@@ -430,15 +430,15 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.5s; /* Add a smooth transition effect */
 }
 
-.portfolio:hover {
+.portfolio-item:hover {
   transform: rotateY(180deg);
 }
 
-.portfolio:hover .portfolio-back{
+.portfolio-item:hover .portfolio-back{
   transform: rotateY(0deg); /* Rotate the name back to its original state on hover */
 }
 
-.portfolio:hover .portfolio-front {
+.portfolio-item:hover .portfolio-front {
   transform: scaleX(-1);
 }
 
