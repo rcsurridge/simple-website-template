@@ -329,7 +329,9 @@ header.masthead .intro-text .intro-heading {
   color: darkgreen;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
 }
 
 .item-back {
