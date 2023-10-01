@@ -391,7 +391,9 @@ header.masthead .intro-text .intro-heading {
   width: 300px; /* Adjust the width as needed */
   height: 300px; /* Adjust the height as needed */
   border: 1px solid darkgreen;
-  perspective: 1000px
+  perspective: 1000px;
+  background-color: white;
+  color: darkgreen;
 }
 
 .item-front, .item-back {
@@ -402,18 +404,7 @@ header.masthead .intro-text .intro-heading {
   backface-visibility: hidden;
 }
 
-.item-front {
-  margin-top: 10px;
-  border: 1px solid darkgreen !important;
-  background-color: white;
-  color: darkgreen;
-}
-
 .item-back {
-  margin-top: 10px;
-  border: 1px solid darkgreen !important;
-  background-color: white;
-  color: darkgreen;
   transform: rotateY(180deg); /* Initially hide the text with a 180-degree rotation */
 }
 
