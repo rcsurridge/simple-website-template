@@ -389,7 +389,6 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-item {
   perspective: 1000px; /* For 3D effect */
-  border: 1px solid darkgreen !important;
 }
 
 .portfolio-item,
@@ -400,22 +399,14 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-.captionPortfolio {
-  font-size: 16px;
-  padding: 8px;
-  margin: 0px;
-  text-align: center;
-  border: 1px solid darkgreen !important;
-  background-color: white; /* Background color for the front face */
-  color: darkgreen;
-}
-
 .portfolio-front {
+  font-size: 16px;
   margin-top: 10px;
   width: 100%;
   height: 100%;
   position: absolute;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   border: 1px solid darkgreen !important;
