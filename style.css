@@ -100,6 +100,10 @@ u {
 }
 
 /* --- Navigation Settings --- */
+#mainNav {
+  background-color: white;
+}
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
@@ -137,7 +141,6 @@ u {
 #mainNav .navbar-nav .nav-item {
   margin-right: 20px;
 }
-
 
 /* --- Social Buttons --- */
 .list-inline.social-buttons li {
