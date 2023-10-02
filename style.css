@@ -123,6 +123,10 @@ u {
   z-index: 1000; /* Ensure it's on top of other elements */
 }
 
+#mainNav.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.95); /* Adjust the alpha for the scrolled state */
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #53a18f;
   background-color: white;
