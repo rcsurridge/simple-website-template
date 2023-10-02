@@ -100,45 +100,19 @@ u {
 }
 
 /* --- Navigation Settings --- */
-#navbarWrapper a.navbar-brand {
-  text-decoration: none !important;
-  margin-top: 5px;
-  font-weight: bold;
-}
-
-#navbarWrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  transition: background-color 0.3s;
-  z-index: 1000;
-  padding: 10px;
-}
-
-#navbarWrapper.navbar-scrolled {
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-#topRightNav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding-right: 150px !important;
-}
-
-#topRightNav li {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-#topRightNav a {
-  text-decoration: none;
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
   color: darkgreen;
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #69b3a2;
+  background-color: white;
+  border-bottom: 3px solid darkgreen;
 }
 
 /* --- Social Buttons --- */
