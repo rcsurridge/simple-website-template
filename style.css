@@ -307,6 +307,7 @@ header.masthead .intro-text .intro-heading {
   perspective: 1000px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .item-front, .item-back {
