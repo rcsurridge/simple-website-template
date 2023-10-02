@@ -131,7 +131,7 @@ u {
 
 #topRightNav li {
   display: inline-block;
-  margin-left: 20px; /* Adjust as needed for spacing */
+  margin-left: 20px;
   margin-top: 5px;
 }
 
@@ -140,14 +140,14 @@ u {
   text-decoration: none;
   color: darkgreen;
   font-weight: bold;
-  font-size: 1.2rem; /* Adjust the font size as needed */
+  font-size: 1.2rem;
 }
 
 
 /* --- Social Buttons --- */
 .list-inline.social-buttons li {
   display: inline-block;
-  margin-right: 10px; /* Adjust the margin as needed for spacing */
+  margin-right: 10px;
 }
 
 ul.list-inline {
@@ -179,20 +179,13 @@ ul.social-buttons li a:hover {
   background-color: #fed136;
 }
 
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
+::-moz-selection,
 ::selection {
   background: #fed136;
   text-shadow: none;
 }
 
-img::selection {
-  background: transparent;
-}
-
+img::selection,
 img::-moz-selection {
   background: transparent;
 }
@@ -301,20 +294,17 @@ header.masthead .intro-text .intro-heading {
   margin-top: 30px;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------- */
-/* Customize the gallery items
-/* ------------------------------------------------------------------------------------------------------------------- */
-
+/* --- Customize the gallery items --- */
 .centered-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Horizontally center items */
-  align-items: center; /* Vertically center items */
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
-  width: 300px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
+  width: 300px;
+  height: 300px;
   perspective: 1000px;
   padding-left: 20px;
   padding-right: 20px;
@@ -333,7 +323,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .item-back {
-  transform: rotateY(180deg); /* Initially hide the text with a 180-degree rotation */
+  transform: rotateY(180deg);
 }
 
 .item-inner {
@@ -349,71 +339,67 @@ header.masthead .intro-text .intro-heading {
   transform: rotateY(180deg);
 }
 
-/* CSS for the image caroussell (poster) */
+/* --- CSS for the image caroussell (poster) --- */
 
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-    }
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
 
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #69b3a2;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #69b3a2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-    .active, .dot:hover {
-      background-color: white;
-    }
-
-/* ------------------------------------------------------------------------------------------------------------------- */
-/* MISTAKE CAROUSSEL CUSTOM
-/* ------------------------------------------------------------------------------------------------------------------- */
+.active, .dot:hover {
+  background-color: white;
+}
 
 .carousel-control-next, .carousel-control-prev {
   color: black;
