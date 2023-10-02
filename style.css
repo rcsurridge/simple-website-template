@@ -102,6 +102,7 @@ u {
 /* --- Navigation Settings --- */
 #mainNav {
   background-color: white;
+  padding-top: 100px
 }
 
 #mainNav .navbar-toggler {
@@ -125,7 +126,6 @@ u {
   background-color: white;
   transition: background-color 0.3s;
   z-index: 1000;
-  padding-top: 10px
 }
 
 #mainNav.navbar-scrolled {
