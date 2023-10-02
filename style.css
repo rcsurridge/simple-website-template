@@ -121,6 +121,7 @@ u {
   background-color: rgba(255, 255, 255, 0.9);
   transition: background-color 0.3s;
   z-index: 1000;
+  padding-top: 10px
 }
 
 #mainNav.navbar-scrolled {
