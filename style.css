@@ -318,9 +318,7 @@ header.masthead .intro-text .intro-heading {
   color: darkgreen;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 
 .item-back {
