@@ -120,7 +120,7 @@ u {
   text-transform: uppercase;
   color: var(--sophisticated-sage);
   border: 0;
-  background-color: #558776;
+  background-color: var(--timeless-noir);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -129,7 +129,7 @@ u {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #558776;
+  color: var(--timeless-noir);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: var(--sophisticated-sage);
   transition: background-color 0.3s;
@@ -141,7 +141,7 @@ u {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #53a18f;
+  color: var(--timeless-noir);
   background-color: var(--sophisticated-sage);
   border-bottom: 3px solid var(--timeless-noir);
 }
