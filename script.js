@@ -29,7 +29,7 @@
 })(jQuery);
 
 /* Some random colors */
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#4CAF50", "#66BB6A", "#004B60"];
 
 const numBalls = 50;
 const balls = [];
