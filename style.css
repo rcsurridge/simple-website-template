@@ -109,7 +109,7 @@ u {
 
 /* --- Navigation Settings --- */
 #mainNav {
-  background-color: var(--ethereal-ivory);
+  background-color: var(--sophisticated-sage);
   padding-top: 30px
 }
 
@@ -118,7 +118,7 @@ u {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: var(--ethereal-ivory);
+  color: var(--sophisticated-sage);
   border: 0;
   background-color: #558776;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -131,7 +131,7 @@ u {
   letter-spacing: 1px;
   color: #558776;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: var(--ethereal-ivory);
+  background-color: var(--sophisticated-sage);
   transition: background-color 0.3s;
   z-index: 1000;
 }
@@ -142,7 +142,7 @@ u {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #53a18f;
-  background-color: var(--ethereal-ivory);
+  background-color: var(--sophisticated-sage);
   border-bottom: 3px solid var(--timeless-noir);
 }
 
