@@ -15,11 +15,6 @@ body {
   font-size: 1.4rem;
 }
 
-.bg-light {
-  padding: 125px 25px;
-  background-color: var(--ethereal-ivory);
-}
-
 /* --- Links --- */
 p {
   line-height: 1.75;
