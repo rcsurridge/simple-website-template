@@ -1,3 +1,10 @@
+:root {
+  --ethereal-ivory: #E4E4DE;
+  --sophisticated-sage: #C4C5BA;
+  --timeless-noir: #1B1B1B;
+  --muted-moss: #595f39;
+}
+
 /* --- Typography & Text styles --- */
 html {
   scroll-behavior: smooth;
@@ -12,6 +19,7 @@ body {
 
 .bg-light {
   padding: 125px 25px;
+  background-color: var(--ethereal-ivory);
 }
 
 /* --- Links --- */
@@ -70,16 +78,16 @@ u {
   font-weight: 500;
   font-size: 1.4rem;
   width: auto !important;
-  border: 1px solid #064e76  !important;
+  border: 1px solid var(--timeless-noir)  !important;
   text-decoration: none;
   text-align: center;
 }
 
 .btn-primary,
 .btn-secondary {
-  background-color: white !important;
-  border-color: #064e76 !important;
-  color: #064e76 !important;
+  background-color: var(--ethereal-ivory) !important;
+  border-color: var(--timeless-noir) !important;
+  color: var(--timeless-noir) !important;
   border-width: medium;
 }
 
@@ -89,9 +97,9 @@ u {
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color: #064e76 !important;
-  border-color: #064e76 !important;
-  color: white !important;
+  background-color: var(--timeless-noir) !important;
+  border-color: var(--timeless-noir) !important;
+  color: var(--ethereal-ivory) !important;
 }
 
 .btn-primary:active, 
@@ -101,7 +109,7 @@ u {
 
 /* --- Navigation Settings --- */
 #mainNav {
-  background-color: white;
+  background-color: var(--ethereal-ivory);
   padding-top: 30px
 }
 
@@ -110,7 +118,7 @@ u {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: var(--ethereal-ivory);
   border: 0;
   background-color: #558776;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -123,19 +131,19 @@ u {
   letter-spacing: 1px;
   color: #558776;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: white;
+  background-color: var(--ethereal-ivory);
   transition: background-color 0.3s;
   z-index: 1000;
 }
 
 #mainNav.navbar-scrolled {
-  background-color: white
+  background-color: var(--ethereal-ivory)
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #53a18f;
-  background-color: white;
-  border-bottom: 3px solid #064e76;
+  background-color: var(--ethereal-ivory);
+  border-bottom: 3px solid var(--timeless-noir);
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -165,7 +173,7 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
+  color: var(--ethereal-ivory);
   border-radius: 100%;
   outline: none;
   background-color: #004b60;
@@ -174,7 +182,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, 
 ul.social-buttons li a:focus, 
 ul.social-buttons li a:hover {
-  background-color: #071a52;
+  background-color: var(--timeless-noir);
 }
 
 ::-moz-selection,
