@@ -118,9 +118,9 @@ u {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: var(--sophisticated-sage);
+  color: var(--muted-moss);
   border: 0;
-  background-color: var(--timeless-noir);
+  background-color: var(--sophisticated-sage);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -129,7 +129,7 @@ u {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: var(--timeless-noir);
+  color: var(--muted-moss);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: var(--sophisticated-sage);
   transition: background-color 0.3s;
