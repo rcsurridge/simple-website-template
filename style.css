@@ -302,8 +302,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .item {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
   padding-left: 20px;
   padding-right: 20px;
