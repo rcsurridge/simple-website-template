@@ -158,11 +158,11 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 5rem;
   display: inline-block;
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
